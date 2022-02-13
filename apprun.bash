@@ -11,5 +11,5 @@ java ${JAVA_AGENT} \
         -Dcom.sun.management.jmxremote.ssl=false \
         -Dcom.sun.management.jmxremote.authenticate=false \
         -Dcom.sun.management.jmxremote.host=127.0.0.1 \
-        -jar onlinebookstore-${VERSION}.jar
+        -jar /opt/apps/lib/onlinebookstore-${VERSION}.jar
 
