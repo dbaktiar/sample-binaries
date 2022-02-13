@@ -7,6 +7,7 @@ LOG_CONFIG="-Dlogging.config=/opt/apps/conf/logback.xml"
 
 java ${JAVA_AGENT} \
         ${LOG_CONFIG} \
+        --illegal-access=warn \
         -Dcom.sun.management.jmxremote.port=${JMX_REGISTRY_PORT} \
         -Dcom.sun.management.jmxremote.ssl=false \
         -Dcom.sun.management.jmxremote.authenticate=false \
