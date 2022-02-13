@@ -2,7 +2,7 @@
 
 JMX_REGISTRY_PORT=11099
 VERSION=0.0.2
-JAVA_AGENT="-javaagent:/opt/apps/newrelic/newrelic.jar"
+JAVA_AGENT="-javaagent:/opt/apps/lib/newrelic/newrelic.jar"
 LOG_CONFIG="-Dlogging.config=/opt/apps/conf/logback.xml"
 
 java ${JAVA_AGENT} \
