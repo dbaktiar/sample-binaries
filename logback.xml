@@ -41,12 +41,10 @@
     </appender>
 
     <logger name="in.bushansirgur.onlinebookstore" level="info" additivity="false">
-        <appender-ref ref="CONSOLE"/>
         <appender-ref ref="APP_LOG"/>
     </logger>
 
     <root level="error">
-        <appender-ref ref="CONSOLE"/>
         <appender-ref ref="ERRORS_LOG"/>
     </root>
 
